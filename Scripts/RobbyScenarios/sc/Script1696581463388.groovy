@@ -17,5 +17,5 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('RobbySteps/Element - Web Tables Edit data then verify changes'), ['num':3], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('RobbySteps/Element - Web Tables Edit data then verify changes'), ['search':'Kierra'], FailureHandling.STOP_ON_FAILURE)
 

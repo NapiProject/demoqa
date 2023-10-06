@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>row num (num)</name>
+   <name>input text (id)</name>
    <tag></tag>
-   <elementGuidId>d0a32616-baf5-4aa7-9a2b-257d5cc93d37</elementGuidId>
+   <elementGuidId>6b3ecb49-e333-431d-99d9-855a7c891070</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//div[@role='rowgroup'][${num}]/div[@role='row']</value>
+         <value>//input[@id='${label}']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,7 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//div[@role='rowgroup'][${num}]/div[@role='row']</value>
-      <webElementGuid>f0442f06-7390-4fd6-b381-c58fc8253954</webElementGuid>
+      <value>//input[@id='${label}']</value>
+      <webElementGuid>4302b642-4c03-4cc3-b699-99c11a1fdd1f</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

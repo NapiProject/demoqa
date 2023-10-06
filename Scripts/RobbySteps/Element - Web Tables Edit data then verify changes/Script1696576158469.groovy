@@ -3,6 +3,9 @@ import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
+
+import javax.xml.bind.annotation.XmlElementDecl.GLOBAL
+
 import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
 import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
 import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
@@ -23,24 +26,34 @@ import com.kms.katalon.core.testobject.ResponseObject
 import com.kms.katalon.core.testobject.ConditionType
 import com.kms.katalon.core.testobject.TestObjectProperty
 
-private String getTextOnColumn(String column) {
-	String row = "//div[@role='rowgroup'][${num}]/div[@role='row']"
-	String col = row
-//	column == "First Name" ?: col + "/div[@role='gridcell'][1]"
-//	column == "Last Name" ?: col + "/div[@role='gridcell'][2]"
-//	column == "Age" ?: col + "/div[@role='gridcell'][3]"
-//	column == "Email" ?: col + "/div[@role='gridcell'][4]"
-//	column == "Salary" ?: col + "/div[@role='gridcell'][5]"
-//	column == "Department" ?: col + "/div[@role='gridcell'][6]"
+private TestObject getXpathOnColumn(String column) {
+	String row = "//div[@role='rowgroup'][1]/div[@role='row']"
+	String cell
 	switch(column){
 		case "First Name":
-		
+			cell = "${row}/div[@role='gridcell'][1]"
 		break;
 		case "Last Name":
-		
+			cell = "${row}/div[@role='gridcell'][2]"
+		break;
+		case "Age":
+			cell = "${row}/div[@role='gridcell'][3]"
+		break;
+		case "Email":
+			cell = "${row}/div[@role='gridcell'][4]"
+		break;
+		case "Salary":
+			cell = "${row}/div[@role='gridcell'][5]"
+		break;
+		case "Department":
+			cell = "${row}/div[@role='gridcell'][6]"
+		break;
+		default:
+			cell = "//div[@class='action-buttons']/span/*[local-name()='svg']"
 		break;
 	}
-	return WebUI.getText(convertTestObjectfromXpath(col))
+	TestObject to = convertTestObjectfromXpath(cell)
+	return to
 }
 
 private TestObject convertTestObjectfromXpath(String xpath) {
@@ -64,6 +77,35 @@ WebUI.scrollToElement(findTestObject('Object Repository/Robby/submenu (submenu)'
 
 WebUI.click(findTestObject('Object Repository/Robby/submenu (submenu)',['submenu':'Web Tables']))
 
-WebUI.setText(convertTestObjectfromXpath("//input[@id='searchBox']"), getTextOnColumn("Email"))
+WebUI.setText(convertTestObjectfromXpath("//input[@id='searchBox']"), search)
+
+WebUI.click(convertTestObjectfromXpath("//div[@class='action-buttons']/span/*[local-name()='svg']"))
+
+WebUI.verifyElementPresent(convertTestObjectfromXpath("//div[@id='registration-form-modal' and text()='Registration Form']"), 0)
+
+TestData data = findTestData('Data Files/web tables')
+
+def columns = data.getColumnNames()
+
+for (column in columns) {
+	String input = "1" + GlobalVariable[column]
+	WebUI.setText(findTestObject('Object Repository/Robby/input text (id)',['label':column]),input)
+	GlobalVariable[column] = input
+}
+
+WebUI.click(convertTestObjectfromXpath("//button[@id='submit']"))
+
+WebUI.setText(convertTestObjectfromXpath("//input[@id='searchBox']"),GlobalVariable['firstName'])
+
+for (column in columns) {
+	String newData = WebUI.getText(getXpathOnColumn(data.getValue(column, 2)))
+	WebUI.verifyMatch(GlobalVariable[column], newData, false)
+}
+
+WebUI.closeBrowser()
+
+
+
+
 
 

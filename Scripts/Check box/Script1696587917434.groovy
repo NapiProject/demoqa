@@ -35,6 +35,8 @@ WebUI.click(findTestObject('Object Repository/expand_office'))
 
 WebUI.click(findTestObject('Object Repository/checkbox_classified'))
 
-WebUI.verifyTextPresent('classified', false)
+String result = WebUI.getText(findTestObject('Object Repository/selected_classified'))
+
+WebUI.verifyMatch(result.trim(), 'classified', false)
 
 WebUI.closeBrowser()

@@ -26,13 +26,20 @@ import com.kms.katalon.core.testobject.TestObjectProperty
 private String getTextOnColumn(String column) {
 	String row = "//div[@role='rowgroup'][${num}]/div[@role='row']"
 	String col = row
-	column == "First Name" ?: col + "/div[@role='gridcell'][1]"
-	column == "Last Name" ?: col + "/div[@role='gridcell'][2]"
-	column == "Age" ?: col + "/div[@role='gridcell'][3]"
-	column == "Email" ?: col + "/div[@role='gridcell'][4]"
-	column == "Salary" ?: col + "/div[@role='gridcell'][5]"
-	column == "Department" ?: col + "/div[@role='gridcell'][6]"
-	
+//	column == "First Name" ?: col + "/div[@role='gridcell'][1]"
+//	column == "Last Name" ?: col + "/div[@role='gridcell'][2]"
+//	column == "Age" ?: col + "/div[@role='gridcell'][3]"
+//	column == "Email" ?: col + "/div[@role='gridcell'][4]"
+//	column == "Salary" ?: col + "/div[@role='gridcell'][5]"
+//	column == "Department" ?: col + "/div[@role='gridcell'][6]"
+	switch(column){
+		case "First Name":
+		
+		break;
+		case "Last Name":
+		
+		break;
+	}
 	return WebUI.getText(convertTestObjectfromXpath(col))
 }
 

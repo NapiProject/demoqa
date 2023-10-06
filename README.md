@@ -1,6 +1,6 @@
-DAnS Multi Pro Home work
+**DAnS Multi Pro Home work**
 
-Website URL : https://demoqa.com/
+**Website URL** : https://demoqa.com/
 
 1. Element – Text Box >> Fill all fields and validate the result - Ira Adellya
 2. Element - check box >> Expand Home > Documents > Office and tick Classified then validate - Lika Pramaditya
@@ -18,12 +18,12 @@ Website URL : https://demoqa.com/
 14. Book Store App - profile >> Login success then logout verify back to login page - Maya Astuti
 15. Book Store App - profile >> Login success then search not existed book and verify no book found - Firman Faturohman
 
-Tasks : 
+**Tasks : **
 1. Clone repository https://github.com/NapiProject/demoqa to your local computer (PC or Laptop).
 2. In katalon studio, click toolbar File >> Open Project and navigate to the clone folder of the online repository in your local computer.
 3. Create automation using Katalon Studio based on the tasks in the table above. (Communicate with your friends if there are any dependencies)
 
-Notes : 
+**Notes : **
 1. Create New Branch using name yourName_Location_No (example : CandraOk_BookStoreApp-Login_9)
 2. Push your work to your branch.
 3. DO NOT Pull Request the branch to Main.

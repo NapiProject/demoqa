@@ -24,22 +24,23 @@ WebUI.openBrowser('https://demoqa.com/')
 WebUI.maximizeWindow()
 WebUI.waitForPageLoad(2)
 
-WebUI.scrollToElement(findTestObject('Object Repository/webtables_delete/menus', ['menu' : 'Elements']), 2)
+WebUI.scrollToElement(findTestObject('Object Repository/webtables_delete/menus', ['menu' : 'Elements']), 1)
 WebUI.click(findTestObject('Object Repository/webtables_delete/menus', ['menu' : 'Elements']))
 
-WebUI.scrollToElement(findTestObject('Object Repository/webtables_delete/sub_menus', ['sub_menu' : 'Web Tables']), 2)
+WebUI.scrollToElement(findTestObject('Object Repository/webtables_delete/sub_menus', ['sub_menu' : 'Web Tables']), 1)
 WebUI.click(findTestObject('Object Repository/webtables_delete/sub_menus', ['sub_menu' : 'Web Tables']))
 
-WebUI.scrollToElement(findTestObject('Object Repository/webtables_delete/delete_record_button', ['index' : index]), 0)
-WebUI.delay(1)
+WebUI.scrollToElement(findTestObject('Object Repository/webtables_delete/delete_record_button', ['index' : index]), 1) 
+String deletedName =  WebUI.getText(findTestObject('Object Repository/webtables_delete/firstname_locator', ['locator' : index]))
+
+WebUI.delay(2)//to show data before deleted
 WebUI.click(findTestObject('Object Repository/webtables_delete/delete_record_button', ['index' : index]))
 
-
-boolean exist = WebUI.waitForElementVisible(findTestObject('Object Repository/webtables_delete/firstname_column', ['firstname' : firstname]), 2, FailureHandling.OPTIONAL)
+boolean exist = WebUI.waitForElementVisible(findTestObject('Object Repository/webtables_delete/firstname_column', ['firstname' : deletedName]), 2, FailureHandling.OPTIONAL)
 if (exist == false) {
-        KeywordUtil.markPassed('PASSED, User successfully deleted')
+        KeywordUtil.markPassed('PASSED, User ' + deletedName + ' successfully deleted')
 } else {
-        KeywordUtil.markErrorAndStop('FAILED, User not successfully deleted')
+        KeywordUtil.markErrorAndStop('FAILED, User ' + deletedName + ' not successfully deleted')
 }
 
 WebUI.closeBrowser()

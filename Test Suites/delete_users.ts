@@ -32,11 +32,5 @@
          <value>index</value>
          <variableId>46cd296e-ffc2-409b-aa23-a1922cbf4295</variableId>
       </variableLink>
-      <variableLink>
-         <testDataLinkId>d2ae7162-e0da-40cb-9acf-8d42ad1211ae</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>firstname</value>
-         <variableId>c9f1ac0f-c923-4e23-9c71-cb665f5badc8</variableId>
-      </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

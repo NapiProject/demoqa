@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>verify_click</name>
+   <tag></tag>
+   <elementGuidId>7a9f87bd-4481-4101-a0dc-eedc14ba373a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//p[@id=&quot;dynamicClickMessage&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//p[@id=&quot;dynamicClickMessage&quot;]</value>
+      <webElementGuid>0316c83d-2a2a-4933-9161-09a54d33a836</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

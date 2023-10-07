@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Current_Address</name>
+   <tag></tag>
+   <elementGuidId>283bfa95-f2a6-4c65-8cf1-fd318a365d9d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//textarea[@id='currentAddress']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//textarea[@id='currentAddress']</value>
+      <webElementGuid>3bd475fd-1e1a-4e9d-9a3a-3f1906580142</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

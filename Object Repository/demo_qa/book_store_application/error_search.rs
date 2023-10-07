@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>error_search</name>
+   <tag></tag>
+   <elementGuidId>008b2ce3-eadf-4845-a400-5f2e3cc53cd6</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[@class='rt-noData']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[@class='rt-noData']</value>
+      <webElementGuid>e235f72e-b748-407e-931e-670287253017</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

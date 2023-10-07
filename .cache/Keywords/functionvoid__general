@@ -1,0 +1,29 @@
+{
+  "keywordFileContentHash": "80E76A55B923D9CFFEBACC6EC695C431",
+  "keywordClasses": [
+    {
+      "name": "functionvoid.general",
+      "keywordMethods": [
+        {
+          "name": "openUrl",
+          "parameters": [
+            {
+              "name": "url",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "javadocParsed": false
+}

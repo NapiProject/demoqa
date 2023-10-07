@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>lbl_username_value-var</name>
+   <tag></tag>
+   <elementGuidId>4480b0eb-28fe-46cc-9379-1c6d5897c3ad</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//label[@id='userName-value']/self::label[text()='${username_label}']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//label[@id='userName-value']/self::label[text()='${username_label}']</value>
+      <webElementGuid>bfe429e3-c831-4e8a-acdf-700b10eff593</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>menu_txt-var</name>
+   <tag></tag>
+   <elementGuidId>3e6a1404-9968-4579-bf8e-d2a31fed2b2a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//h5[text()='${nama_menu}']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//h5[text()='${nama_menu}']</value>
+      <webElementGuid>94b3d919-e0cc-4272-a271-b5a7322f137d</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

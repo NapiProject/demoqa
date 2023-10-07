@@ -68,6 +68,10 @@
       <description></description>
       <initValue>[('name@example.com') : 'ds', ('Department') : 'dep', ('Salary') : 'sal', ('Age') : 'age', ('Last Name') : 'las', ('First Name') : 'fs']</initValue>
       <name>data</name>
->>>>>>> main
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://demoqa.com/'</initValue>
+      <name>url</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

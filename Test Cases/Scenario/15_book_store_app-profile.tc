@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Login success then search not existed book and verify no book found</description>
+   <name>15_book_store_app-profile</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>490ba7dd-feb3-4ed6-8cab-1e53b9d67e0f</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>d577ecc7-8416-4141-8235-c41a118ca432</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>7ae69e55-adc6-4e58-8abd-5cf288189089</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>60d3e7b9-594d-4522-99bb-3bf792bfe2c7</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>a0841c3b-b85f-4148-ac28-27831a7f5c39</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'firmanQA'</defaultValue>
+      <description></description>
+      <id>d577ecc7-8416-4141-8235-c41a118ca432</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>'p4y+y39Ir5NR7y+W3t6bvA=='</defaultValue>
+      <description></description>
+      <id>7ae69e55-adc6-4e58-8abd-5cf288189089</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+   <variable>
+      <defaultValue>'katalon book'</defaultValue>
+      <description></description>
+      <id>60d3e7b9-594d-4522-99bb-3bf792bfe2c7</id>
+      <masked>false</masked>
+      <name>searchbox</name>
+   </variable>
+   <variable>
+      <defaultValue>'Git Pocket Guide'</defaultValue>
+      <description></description>
+      <id>a0841c3b-b85f-4148-ac28-27831a7f5c39</id>
+      <masked>false</masked>
+      <name>expected_search</name>
+   </variable>
+</TestCaseEntity>

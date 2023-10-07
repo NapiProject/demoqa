@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>btn_id_var</name>
+   <tag></tag>
+   <elementGuidId>aeffc310-a5a4-44e7-a758-627b02b8e215</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//button[@id='${button}']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//button[@id='${button}']</value>
+      <webElementGuid>cbf74a8a-4cea-4aa5-8961-9d14a453e64e</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

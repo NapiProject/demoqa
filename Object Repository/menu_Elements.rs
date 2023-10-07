@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>menu_Elements</name>
+   <tag></tag>
+   <elementGuidId>cd6a1e04-049f-4f72-995b-20df5ceb836c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;app&quot;]/div/div/div[2]/div/div[1]/div/div[3]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;app&quot;]/div/div/div[2]/div/div[1]/div/div[3]</value>
+      <webElementGuid>81725b9a-21ce-41cf-a596-71ab4f0872bf</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

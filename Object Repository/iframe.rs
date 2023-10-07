@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_username</name>
+   <name>iframe</name>
    <tag></tag>
-   <elementGuidId>a4b9e09a-7a27-44a2-b26a-fbc45cb70ae5</elementGuidId>
+   <elementGuidId>197edd1f-caa8-4dfd-8873-57a581e1a1c2</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//input[@id=&quot;userName&quot;]</value>
+         <value>/html/body/noscript/text()</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,7 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//input[@id=&quot;userName&quot;]</value>
-      <webElementGuid>696ed1a6-fd50-4cce-83c0-ec9e114329e4</webElementGuid>
+      <value>/html/body/noscript/text()</value>
+      <webElementGuid>06dc5f11-f52e-4661-9d3f-fee0af9ee5ca</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

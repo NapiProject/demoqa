@@ -6,6 +6,11 @@
    <defaultProfile>true</defaultProfile>
    <GlobalVariableEntity>
       <description></description>
+      <initValue>'superadmin'</initValue>
+      <name>expect</name>
+  </GlobalVariableEntity>
+  <GlobalVariableEntity>
+      <description></description>
       <initValue>'mayaastuti00'</initValue>
       <name>userName</name>
    </GlobalVariableEntity>
@@ -18,6 +23,9 @@
       <description></description>
       <initValue>'demoqa.com'</initValue>
       <name>baseUrl</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
       <initValue>'robby'</initValue>
       <name>firstName</name>
    </GlobalVariableEntity>

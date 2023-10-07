@@ -36,8 +36,8 @@ String deletedName =  WebUI.getText(findTestObject('Object Repository/webtables_
 WebUI.delay(2)//to show data before deleted
 WebUI.click(findTestObject('Object Repository/webtables_delete/delete_record_button', ['index' : index]))
 
-boolean exist = WebUI.waitForElementVisible(findTestObject('Object Repository/webtables_delete/firstname_column', ['firstname' : deletedName]), 2, FailureHandling.OPTIONAL)
-if (exist == false) {
+boolean exist = WebUI.verifyElementNotPresent(findTestObject('Object Repository/webtables_delete/firstname_column', ['firstname' : deletedName]), 2, FailureHandling.OPTIONAL)
+if (exist == true) {
         KeywordUtil.markPassed('PASSED, User ' + deletedName + ' successfully deleted')
 } else {
         KeywordUtil.markErrorAndStop('FAILED, User ' + deletedName + ' not successfully deleted')

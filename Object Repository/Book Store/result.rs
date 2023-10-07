@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>result</name>
+   <tag></tag>
+   <elementGuidId>ac10c7e0-4b22-4341-a5a1-33d159ee92a0</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;see-book-${title}&quot;]/a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;see-book-${title}&quot;]/a</value>
+      <webElementGuid>2bc16b8e-4755-4c8d-ba99-6d80ef728fac</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

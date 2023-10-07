@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>firstname_column</name>
+   <tag></tag>
+   <elementGuidId>fc5add3b-6942-4d3a-9aad-63f3eaa2f263</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[contains(text(),'${firstname}')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[contains(text(),'${firstname}')]</value>
+      <webElementGuid>0d656e19-ef53-4bed-bcb5-507ef536d4c2</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

@@ -6,10 +6,20 @@
    <defaultProfile>true</defaultProfile>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'superadmin'</initValue>
-      <name>expect</name>
+      <initValue>'raihannaiwan'</initValue>
+      <name>login_username</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
+      <description></description>
+      <initValue>'IvIuvozvUIT0ZOpuOvd+Gg=='</initValue>
+      <name>login_password</name>
+ </GlobalVariableEntity>
+  <GlobalVariableEntity>
+  <description></description>
+      <initValue>'superadmin'</initValue>
+      <name>expect</name>
+  </GlobalVariableEntity>
+  <GlobalVariableEntity>
       <description></description>
       <initValue>'mayaastuti00'</initValue>
       <name>userName</name>

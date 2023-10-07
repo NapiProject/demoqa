@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_username</name>
+   <name>button_next</name>
    <tag></tag>
-   <elementGuidId>a4b9e09a-7a27-44a2-b26a-fbc45cb70ae5</elementGuidId>
+   <elementGuidId>2a3787e5-8080-43a7-8cc3-915c0ba2d60f</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//input[@id=&quot;userName&quot;]</value>
+         <value>//*[@id='app']/div/div/div[2]/div[2]/div[2]/div[2]/div[2]/div/div[3]/button</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,7 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//input[@id=&quot;userName&quot;]</value>
-      <webElementGuid>696ed1a6-fd50-4cce-83c0-ec9e114329e4</webElementGuid>
+      <value>//*[@id='app']/div/div/div[2]/div[2]/div[2]/div[2]/div[2]/div/div[3]/button</value>
+      <webElementGuid>57984669-c8af-4708-ba9e-df54ebe94be9</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

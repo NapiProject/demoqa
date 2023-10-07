@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_username</name>
+   <name>search_box</name>
    <tag></tag>
-   <elementGuidId>a4b9e09a-7a27-44a2-b26a-fbc45cb70ae5</elementGuidId>
+   <elementGuidId>0df2be7b-5d1b-4929-bce9-a1e59ccc1cfa</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//input[@id=&quot;userName&quot;]</value>
+         <value>//*[@id=&quot;searchBox&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,7 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//input[@id=&quot;userName&quot;]</value>
-      <webElementGuid>696ed1a6-fd50-4cce-83c0-ec9e114329e4</webElementGuid>
+      <value>//*[@id=&quot;searchBox&quot;]</value>
+      <webElementGuid>99c91645-57ef-43da-ba13-0ae77d0c41d2</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

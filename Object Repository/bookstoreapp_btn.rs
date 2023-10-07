@@ -1,13 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_username</name>
+   <name>bookstoreapp_btn</name>
    <tag></tag>
-   <elementGuidId>a4b9e09a-7a27-44a2-b26a-fbc45cb70ae5</elementGuidId>
+   <elementGuidId>9c833af4-eaff-408f-85ea-a9b98a857b8d</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>XPATH</key>
+         <value></value>
+      </entry>
+      <entry>
          <key>BASIC</key>
-         <value>//input[@id=&quot;userName&quot;]</value>
+         <value>//*[(text() = 'Book Store Application' or . = 'Book Store Application')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -15,9 +19,9 @@
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath</name>
+      <name>text</name>
       <type>Main</type>
-      <value>//input[@id=&quot;userName&quot;]</value>
-      <webElementGuid>696ed1a6-fd50-4cce-83c0-ec9e114329e4</webElementGuid>
+      <value>Book Store Application</value>
+      <webElementGuid>fce536ed-a54a-487d-a219-b98797084bd1</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

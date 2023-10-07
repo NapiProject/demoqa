@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_username</name>
+   <name>verify_login</name>
    <tag></tag>
-   <elementGuidId>a4b9e09a-7a27-44a2-b26a-fbc45cb70ae5</elementGuidId>
+   <elementGuidId>a96386f8-3f4b-493a-9027-dfd5809dbcdb</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//input[@id=&quot;userName&quot;]</value>
+         <value>//div[@class='col-12 mt-4 col-md-6']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,7 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//input[@id=&quot;userName&quot;]</value>
-      <webElementGuid>696ed1a6-fd50-4cce-83c0-ec9e114329e4</webElementGuid>
+      <value>//div[@class='col-12 mt-4 col-md-6']</value>
+      <webElementGuid>a71b5ca8-600d-4a55-b198-1ec542f78ee3</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

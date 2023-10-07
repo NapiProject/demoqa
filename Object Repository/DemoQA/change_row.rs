@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>change_row</name>
+   <tag></tag>
+   <elementGuidId>a013e515-1911-429e-a627-994dd440b220</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id='app']/div/div/div[2]/div[2]/div[2]/div[2]/div[2]/div/div[2]/span[2]/select</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id='app']/div/div/div[2]/div[2]/div[2]/div[2]/div[2]/div/div[2]/span[2]/select</value>
+      <webElementGuid>64e9d624-546f-4025-8f05-8825117151eb</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

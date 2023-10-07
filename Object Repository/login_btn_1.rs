@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>login_btn_1</name>
+   <tag></tag>
+   <elementGuidId>a168e575-1716-4f96-8f1c-b2434e13eca5</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//button[@id=&quot;login&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//button[@id=&quot;login&quot;]</value>
+      <webElementGuid>9aa97235-ed51-4368-9697-a1c7d864473d</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

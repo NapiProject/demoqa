@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>verify_doubleclick</name>
+   <tag></tag>
+   <elementGuidId>5ed5512e-e482-40a2-aa9e-3a634d29df51</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>/p[@id=&quot;doubleClickMessage&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/p[@id=&quot;doubleClickMessage&quot;]</value>
+      <webElementGuid>5cee8454-339e-4bc1-a39b-e248ecc441cf</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

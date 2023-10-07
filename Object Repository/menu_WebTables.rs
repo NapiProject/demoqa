@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>menu_WebTables</name>
+   <tag></tag>
+   <elementGuidId>c95adac6-fda2-4d5a-b9c6-6e82cdc18502</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;item-3&quot;]/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;item-3&quot;]/span</value>
+      <webElementGuid>2de39d53-772e-478b-9b2e-c8eb1cd88dfd</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

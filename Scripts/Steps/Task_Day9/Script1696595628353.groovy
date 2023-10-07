@@ -20,7 +20,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('https://demoqa.com/buttons')
 
-//WebUI.maximizeWindow()
+WebUI.maximizeWindow()
 
 WebUI.waitForPageLoad(5)
 

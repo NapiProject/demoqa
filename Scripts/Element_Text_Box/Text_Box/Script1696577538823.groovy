@@ -16,7 +16,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
-import org.apache.commons.lang3.StringUtils
+import org.apache.commons.lang3.StringUtils as StringUtils
 
 WebUI.openBrowser('https://demoqa.com/')
 
@@ -40,17 +40,29 @@ WebUI.scrollToElement(findTestObject('Element_Text_Box/Button_Submit'), 2)
 
 WebUI.click(findTestObject('Element_Text_Box/Button_Submit'))
 
-String hasilname = WebUI.getText(findTestObject("Object Repository/Element_Text_Box/result",[("result"):"name"]))
-String hasilemail = WebUI.getText(findTestObject("Object Repository/Element_Text_Box/result",[("result"):"email"]))
-String hasilcurrent = WebUI.getText(findTestObject("Object Repository/Element_Text_Box/result",[("result"):"currentAddress"]))
-String hasilpermanent = WebUI.getText(findTestObject("Object Repository/Element_Text_Box/result",[("result"):"permanentAddress"]))
+String hasilname = WebUI.getText(findTestObject('Object Repository/Element_Text_Box/result', [('result') : 'name']))
 
-String hasilnames = StringUtils.substringAfter(hasilname,"Name:" )
-String hasilemails = StringUtils.substringAfter(hasilemail,"Email:" )
-String hasilcurrents = StringUtils.substringAfter(hasilcurrent,"Current Address :" )
-String hasilpermanents = StringUtils.substringAfter(hasilpermanent,"Permananet Address :" )
+String hasilemail = WebUI.getText(findTestObject('Object Repository/Element_Text_Box/result', [('result') : 'email']))
+
+String hasilcurrent = WebUI.getText(findTestObject('Object Repository/Element_Text_Box/result', [('result') : 'currentAddress']))
+
+String hasilpermanent = WebUI.getText(findTestObject('Object Repository/Element_Text_Box/result', [('result') : 'permanentAddress']))
+
+String hasilnames = StringUtils.substringAfter(hasilname, 'Name:')
+
+String hasilemails = StringUtils.substringAfter(hasilemail, 'Email:')
+
+String hasilcurrents = StringUtils.substringAfter(hasilcurrent, 'Current Address :')
+
+String hasilpermanents = StringUtils.substringAfter(hasilpermanent, 'Permananet Address :')
 
 WebUI.verifyMatch(name, hasilnames, false)
+
 WebUI.verifyMatch(email, hasilemails, false)
+
 WebUI.verifyMatch(current, hasilcurrents, false)
+
 WebUI.verifyMatch(permanent, hasilpermanents, false)
+
+WebUI.closeBrowser()
+

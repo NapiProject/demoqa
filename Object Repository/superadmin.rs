@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>superadmin</name>
+   <tag></tag>
+   <elementGuidId>a9700601-5ce5-41e7-b5cb-2276190685df</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//label[@id=&quot;userName-value&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//label[@id=&quot;userName-value&quot;]</value>
+      <webElementGuid>a7eb3881-31ad-4e7e-9c38-4fae20edb128</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

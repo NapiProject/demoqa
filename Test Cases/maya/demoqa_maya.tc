@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>demoqa</name>
+   <name>demoqa_maya</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>e64b59a9-da7a-42cd-96fc-b82d5811cb2e</testCaseGuid>

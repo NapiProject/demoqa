@@ -15,7 +15,7 @@
       <guid>d4b30c81-cb83-4efa-8c69-e9139fa1409b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/demoqa</testCaseId>
+      <testCaseId>Test Cases/maya/demoqa_maya</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

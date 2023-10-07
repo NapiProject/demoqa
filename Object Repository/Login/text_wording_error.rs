@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>text_wording_error</name>
+   <tag></tag>
+   <elementGuidId>df1f7e80-8c17-46d5-a7ac-5e4267c52ffa</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//p[@id='name']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//p[@id='name']</value>
+      <webElementGuid>9d3dc7d3-aab3-456f-9c5b-0dd84a896b14</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

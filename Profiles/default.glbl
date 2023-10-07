@@ -6,6 +6,16 @@
    <defaultProfile>true</defaultProfile>
    <GlobalVariableEntity>
       <description></description>
+      <initValue>'raihannaiwan'</initValue>
+      <name>login_username</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'IvIuvozvUIT0ZOpuOvd+Gg=='</initValue>
+      <name>login_password</name>
+ </GlobalVariableEntity>
+  <GlobalVariableEntity>
+  <description></description>
       <initValue>'superadmin'</initValue>
       <name>expect</name>
   </GlobalVariableEntity>
@@ -58,5 +68,6 @@
       <description></description>
       <initValue>[('name@example.com') : 'ds', ('Department') : 'dep', ('Salary') : 'sal', ('Age') : 'age', ('Last Name') : 'las', ('First Name') : 'fs']</initValue>
       <name>data</name>
+>>>>>>> main
    </GlobalVariableEntity>
 </GlobalVariableEntities>

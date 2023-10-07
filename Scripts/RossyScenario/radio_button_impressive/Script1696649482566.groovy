@@ -17,32 +17,9 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('https://demoqa.com/')
+WebUI.callTestCase(findTestCase('RossySteps/menu_radio_button'), [
+	'opt':'Radio Button',
+	'opt_radio':'impressiveRadio',
+	'res_text':'Impressive'
+	], FailureHandling.STOP_ON_FAILURE)
 
-//WebUI.maximizeWindow()
-
-//WebUI.waitForElementPresent(findTestObject('Object Repository/Main Page/card_elements'), 5)
-
-WebUI.scrollToElement(findTestObject('Object Repository/Main Page/card_elements'), 5)
-
-WebUI.click(findTestObject('Object Repository/Main Page/card_elements'))
-
-WebUI.scrollToElement(findTestObject('Object Repository/Elements Page/menu_radio', ['option' : opt]), 5)
-
-WebUI.click(findTestObject('Object Repository/Elements Page/menu_radio', ['option' : 'Radio Button']))
-
-WebUI.check(findTestObject('Object Repository/Elements Page/radio_button_elements', ['radio': opt_radio]))
-
-//WebUI.verifyMatch(findTestObject('Object Repository/Elements Page/text_result'), null, false)
-
-String text = WebUI.getText(findTestObject('Object Repository/Elements Page/text_result'))
-
-println(text)
-
-WebUI.verifyMatch(text, res_text, false)
-
-//WebUI.waitForElementPresent(findTestObject('Object Repository/Elements Page/radio_button_elements', ['radio':'yesRadio']), 3)
-
-//WebUI.verifyElementChecked(findTestObject('Object Repository/Elements Page/radio_button_elements', ['radio':'yesRadio']), 10)
-	
-WebUI.closeBrowser()

@@ -17,9 +17,9 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Steps/menu_radio_button'), [
+WebUI.callTestCase(findTestCase('RossySteps/menu_radio_button'), [
 	'opt':'Radio Button',
-	'opt_radio':'impressiveRadio',
-	'res_text':'Impressive'
+	'opt_radio':'yesRadio',
+	'res_text':'Yes'
 	], FailureHandling.STOP_ON_FAILURE)
 

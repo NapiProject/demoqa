@@ -17,9 +17,24 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Steps/menu_radio_button'), [
-	'opt':'Radio Button',
-	'opt_radio':'yesRadio',
-	'res_text':'Yes'
-	], FailureHandling.STOP_ON_FAILURE)
+WebUI.openBrowser('https://demoqa.com/')
 
+WebUI.maximizeWindow()
+
+WebUI.scrollToElement(findTestObject('Object Repository/Main Page/card_elements'), 5)
+
+WebUI.click(findTestObject('Object Repository/Main Page/card_elements'))
+
+WebUI.scrollToElement(findTestObject('Object Repository/Elements Page/menu_radio', ['option' : opt]), 5)
+
+WebUI.click(findTestObject('Object Repository/Elements Page/menu_radio', ['option' : 'Radio Button']))
+
+WebUI.check(findTestObject('Object Repository/Elements Page/radio_button_elements', ['radio': opt_radio]))
+
+String text = WebUI.getText(findTestObject('Object Repository/Elements Page/text_result'))
+
+println(text)
+
+WebUI.verifyMatch(text, res_text, false)
+	
+WebUI.closeBrowser()

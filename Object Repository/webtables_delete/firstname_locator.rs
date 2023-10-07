@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_username</name>
+   <name>firstname_locator</name>
    <tag></tag>
-   <elementGuidId>a4b9e09a-7a27-44a2-b26a-fbc45cb70ae5</elementGuidId>
+   <elementGuidId>0197c5f9-e030-46b6-a990-16123139bce8</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//input[@id=&quot;userName&quot;]</value>
+         <value>//div[@role='rowgroup'][${locator}]/div[@role='row']/div[@class='rt-td'][1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,7 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//input[@id=&quot;userName&quot;]</value>
-      <webElementGuid>696ed1a6-fd50-4cce-83c0-ec9e114329e4</webElementGuid>
+      <value>//div[@role='rowgroup'][${locator}]/div[@role='row']/div[@class='rt-td'][1]</value>
+      <webElementGuid>f3a92dcf-3714-4d9f-bd4c-f59a44d089fd</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

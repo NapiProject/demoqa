@@ -21,22 +21,24 @@ WebUI.openBrowser('https://demoqa.com/', FailureHandling.STOP_ON_FAILURE)
 
 WebUI.maximizeWindow()
 
-WebUI.scrollToPosition(9999999, 9999999)
+//WebUI.scrollToPosition(9999999, 9999999)
 
-WebUI.click(findTestObject('Object Repository/menu_book_store_application'), FailureHandling.STOP_ON_FAILURE)
+WebUI.scrollToElement(findTestObject('Object Repository/Login/menu_book_store_application'), 0, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/btn_login'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('Object Repository/Login/menu_book_store_application'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('Object Repository/input_form',['input' : 'userName']), GlobalVariable.username, FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('Object Repository/Login/btn_login'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setEncryptedText(findTestObject('Object Repository/input_form',['input' : 'password']),GlobalVariable.password, FailureHandling.STOP_ON_FAILURE)
+WebUI.setText(findTestObject('Object Repository/Login/input_form',['input' : 'userName']), GlobalVariable.username, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/btn_login'), FailureHandling.STOP_ON_FAILURE)
+WebUI.setEncryptedText(findTestObject('Object Repository/Login/input_form',['input' : 'password']),GlobalVariable.password, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('Object Repository/Login/btn_login'), FailureHandling.STOP_ON_FAILURE)
 
 
-if(WebUI.verifyElementVisible(findTestObject('Object Repository/text_wording_error')) == true) {
+if(WebUI.verifyElementVisible(findTestObject('Object Repository/Login/text_wording_error')) == true) {
 	
-	WebUI.verifyElementText(findTestObject('Object Repository/text_wording_error'), 'Invalid username or password!', FailureHandling.STOP_ON_FAILURE)
+	WebUI.verifyElementText(findTestObject('Object Repository/Login/text_wording_error'), 'Invalid username or password!', FailureHandling.STOP_ON_FAILURE)
 	
 }
 

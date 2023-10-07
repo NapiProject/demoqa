@@ -18,5 +18,37 @@
       <description></description>
       <initValue>'demoqa.com'</initValue>
       <name>baseUrl</name>
+      <initValue>'robby'</initValue>
+      <name>firstName</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>lastName</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'@gmail.com'</initValue>
+      <name>userEmail</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>age</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>salary</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>department</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>[('name@example.com') : 'ds', ('Department') : 'dep', ('Salary') : 'sal', ('Age') : 'age', ('Last Name') : 'las', ('First Name') : 'fs']</initValue>
+      <name>data</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

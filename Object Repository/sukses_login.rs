@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>sukses_login</name>
+   <tag></tag>
+   <elementGuidId>c5a0b057-e563-4de5-bf02-5e484da6d755</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//label[@id=&quot;userName-value&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//label[@id=&quot;userName-value&quot;]</value>
+      <webElementGuid>f06e0d80-3c6d-4945-8076-4529299afe65</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

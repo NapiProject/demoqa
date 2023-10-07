@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>delete_record_button</name>
+   <tag></tag>
+   <elementGuidId>4b6cd95a-4762-4cc5-8bae-c97f2deea04c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//span[@id='delete-record-${index}']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//span[@id='delete-record-${index}']</value>
+      <webElementGuid>9cdf9c19-3818-47d2-b04a-048300a7a18f</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

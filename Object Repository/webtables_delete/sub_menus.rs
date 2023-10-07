@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>sub_menus</name>
+   <tag></tag>
+   <elementGuidId>c9756c1f-0ad3-44cc-a6c1-aa3fc7fb447f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//span[contains(text(),'${sub_menu}')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//span[contains(text(),'${sub_menu}')]</value>
+      <webElementGuid>cfca7e0c-4e15-4401-8192-d1627bc30a8f</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

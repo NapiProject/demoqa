@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>open_menu_bookStore</name>
+   <tag></tag>
+   <elementGuidId>8ddf45fa-0cf0-46a1-bba7-526c2fde9377</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id='app']/div/div/div[2]/div/div[6]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id='app']/div/div/div[2]/div/div[6]</value>
+      <webElementGuid>b4240f73-ff58-4659-94d9-c03f2fbe5894</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

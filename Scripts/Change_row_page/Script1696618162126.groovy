@@ -43,12 +43,10 @@ import org.openqa.selenium.Keys as Keys
 WebUI.openBrowser('https://demoqa.com/')
 WebUI.maximizeWindow()
 
-//Navigate to the Table page
+
 WebUI.click(findTestObject('Object Repository/DemoQA/open_menu_bookStore'))
 
-//Navigate to the Table page
-//WebUI.selectOptionByValue(findTestObject('Object Repository/DemoQA/change_row'), '5', false)
-WebUI.click(findTestObject('Object Repository/DemoQA/change_row'))
+WebUI.selectOptionByValue(findTestObject('Object Repository/DemoQA/change_row'), '5', false)
 
 WebUI.delay(2)
 
@@ -57,12 +55,9 @@ WebUI.selectOptionByValue(findTestObject('Object Repository/DemoQA/change_row'),
 
 WebUI.delay(2)
 
-//click next page
 WebUI.click(findTestObject('Object Repository/DemoQA/button_next'))
 
-//verify pagination
-//WebUI.verifyElementAttributeValue(findTestObject('Object Repository/DemoQA/pagination'), 'value', '5', 10)
-
+WebUI.verifyElementAttributeValue(findTestObject('Object Repository/DemoQA/pagination'), 'value', '2', 10)
 
 
 WebUI.closeBrowser()

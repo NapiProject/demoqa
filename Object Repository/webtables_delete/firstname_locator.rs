@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>firstname_locator</name>
+   <tag></tag>
+   <elementGuidId>0197c5f9-e030-46b6-a990-16123139bce8</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[@role='rowgroup'][${locator}]/div[@role='row']/div[@class='rt-td'][1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[@role='rowgroup'][${locator}]/div[@role='row']/div[@class='rt-td'][1]</value>
+      <webElementGuid>f3a92dcf-3714-4d9f-bd4c-f59a44d089fd</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

@@ -7,11 +7,11 @@
    <GlobalVariableEntity>
       <description></description>
       <initValue>'raihannaiwan'</initValue>
-      <name>username</name>
+      <name>login_username</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
       <initValue>'IvIuvozvUIT0ZOpuOvd+Gg=='</initValue>
-      <name>password</name>
+      <name>login_password</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

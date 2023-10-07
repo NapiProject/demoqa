@@ -29,9 +29,9 @@ WebUI.click(findTestObject('Object Repository/Login/menu_book_store_application'
 
 WebUI.click(findTestObject('Object Repository/Login/btn_login'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('Object Repository/Login/input_form',['input' : 'userName']), GlobalVariable.username, FailureHandling.STOP_ON_FAILURE)
+WebUI.setText(findTestObject('Object Repository/Login/input_form',['input' : 'userName']), GlobalVariable.login_username, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Login/input_form',['input' : 'password']),GlobalVariable.password, FailureHandling.STOP_ON_FAILURE)
+WebUI.setEncryptedText(findTestObject('Object Repository/Login/input_form',['input' : 'password']),GlobalVariable.login_password, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Object Repository/Login/btn_login'), FailureHandling.STOP_ON_FAILURE)
 

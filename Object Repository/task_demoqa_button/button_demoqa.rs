@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_demoqa</name>
+   <tag></tag>
+   <elementGuidId>b7232228-af75-4637-96a9-f830913caa5b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//button[@id=&quot;${click}&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//button[@id=&quot;${click}&quot;]</value>
+      <webElementGuid>e5f40b4a-13b6-44fd-bf4f-82eab54e2112</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

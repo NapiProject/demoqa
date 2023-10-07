@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>verify_rightclick</name>
+   <tag></tag>
+   <elementGuidId>00ee6746-3192-4e75-9709-26e1de1e9926</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//p[@id=&quot;rightClickMessage&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//p[@id=&quot;rightClickMessage&quot;]</value>
+      <webElementGuid>88e3ee45-7433-4165-9b27-9daa03d32114</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>
